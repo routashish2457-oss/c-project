@@ -1,0 +1,11 @@
+#include<stdio.h>
+typedef unsigned int var;
+int main()
+{
+    var x,y,z;
+    x=4;
+    y=2;
+    z=x+y;
+    printf("the sum is %u and %u is %u",x,y,z);
+    return 0;
+}
