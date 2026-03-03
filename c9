@@ -1,0 +1,18 @@
+#include<stdio.h>
+struct Employee
+{
+    char ename[10];
+    int sal;
+};
+struct Employee emp;
+void main()
+{
+    printf("\n enter Employee record:\n");
+    printf("\n Employee name:\t");
+   scanf("%s",emp.ename);
+   printf("\n enter salary:\t");
+   scanf("%d",&emp.sal);
+   printf("\n displaying Employee record:\n");
+   printf("\n Employee name is %s",emp.ename);
+   printf("\n salary is %d",emp.sal);
+}
