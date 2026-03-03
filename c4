@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{
+    int data[10],i=0,ub;
+    printf("enter the size of array");
+    scanf("%d",&ub);
+    for(i<=0;i<ub;i++)
+{
+    scanf("%d",&data[i]);
+}
+for(i=0;i<5;i++)
+{
+    printf("%d",data[i]);
+}
+}
